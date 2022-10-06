@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { Person } from './person/person.component';
 
-
-
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -10,7 +8,7 @@ import { Person } from './person/person.component';
 })
 export class HomePage {
 
-  name:string="Juan";
+  name:string="Fran";
   people:Person[]=[];
   id:number=0;
 
